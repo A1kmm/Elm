@@ -45,6 +45,9 @@ mod : Int -> Int -> Int
 -- Exponentiation: `3^2 == 9`
 (^) : Number a -> Number a -> Number a
 
+-- Taking a power of exponential e:
+exp : Number a -> Number a
+
 cos  : Float -> Float
 sin  : Float -> Float
 tan  : Float -> Float
@@ -88,9 +91,6 @@ clamp : Number a -> Number a -> Number a -> Number a
 
 -- An approximation of pi.
 pi : Float
-
--- An approximation of e.
-e : Float
 
 -- Compare any two values for structural equality. Functions cannot be compared.
 (==) : a -> a -> Bool
