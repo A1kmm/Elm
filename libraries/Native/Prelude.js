@@ -70,7 +70,6 @@ Elm.Native.Prelude = function(elm) {
       mod:mod,
 
       pi:Math.PI,
-      e:Math.e,
       cos:Math.cos,
       sin:Math.sin,
       tan:Math.tan,
@@ -78,6 +77,7 @@ Elm.Native.Prelude = function(elm) {
       asin:Math.asin,
       atan:Math.atan,
       atan2:F2(Math.atan2),
+      exp:Math.exp,
 
       sqrt:Math.sqrt,
       abs:abs,
